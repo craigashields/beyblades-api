@@ -10,30 +10,30 @@
 
 <!-- Badges -->
 <p>
-<a href="https://github.com/craigashields/beyblade-api/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/craigashields/beyblade-api" alt="contributors" />
+<a href="https://github.com/craigashields/beyblades-api/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/craigashields/beyblades-api" alt="contributors" />
 </a>
 <a href="">
-    <img src="https://img.shields.io/github/last-commit/craigashields/beyblade-api" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/craigashields/beyblades-api" alt="last update" />
 </a>
-<a href="https://github.com/craigashields/beyblade-api/network/members">
-    <img src="https://img.shields.io/github/forks/craigashields/beyblade-api" alt="forks" />
+<a href="https://github.com/craigashields/beyblades-api/network/members">
+    <img src="https://img.shields.io/github/forks/craigashields/beyblades-api" alt="forks" />
 </a>
-<a href="https://github.com/craigashields/beyblade-api/stargazers">
-    <img src="https://img.shields.io/github/stars/craigashields/beyblade-api" alt="stars" />
+<a href="https://github.com/craigashields/beyblades-api/stargazers">
+    <img src="https://img.shields.io/github/stars/craigashields/beyblades-api" alt="stars" />
 </a>
-<a href="https://github.com/craigashields/beyblade-api/issues/">
-    <img src="https://img.shields.io/github/issues/craigashields/beyblade-api" alt="open issues" />
+<a href="https://github.com/craigashields/beyblades-api/issues/">
+    <img src="https://img.shields.io/github/issues/craigashields/beyblades-api" alt="open issues" />
 </a>
 </p>  
 <h4>
-    <a href="https://github.com/craigashields/beyblade-api/">View Demo</a>
+    <a href="https://github.com/craigashields/beyblades-api/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/craigashields/beyblade-api">Documentation</a>
+    <a href="https://github.com/craigashields/beyblades-api">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/craigashields/beyblade-api/issues/">Report Bug</a>
+    <a href="https://github.com/craigashields/beyblades-api/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/craigashields/beyblade-api/issues/">Request Feature</a>
+    <a href="https://github.com/craigashields/beyblades-api/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -127,7 +127,7 @@ Open [http://localhost:3000](http://localhost:3000/) in your browser and you'll 
 
 All contributions are welcome, whether it's documentation, new endpoints, performance improvements, bug fixes etc
 
-Please visit the [repo issues](https://github.com/craigashields/beyblade-api/issues) before you submit a pull request or raise an issue, as something may already be inflight. 
+Please visit the [repo issues](https://github.com/craigashields/beyblades-api/issues) before you submit a pull request or raise an issue, as something may already be inflight. 
 
 1. Fork the repository: Click the "Fork" button on the top right corner of the repository page.
 2. Create a new branch: git checkout -b [new branch name]
@@ -137,7 +137,7 @@ Please visit the [repo issues](https://github.com/craigashields/beyblade-api/iss
 
 ## License
 
-[MIT](https://github.com/craigashields/beyblade-api/blob/master/LICENSE) © [Craig Shields](https://github.com/craigashields)
+[MIT](https://github.com/craigashields/beyblades-api/blob/master/LICENSE) © [Craig Shields](https://github.com/craigashields)
 
 ## Tech Stack
 
