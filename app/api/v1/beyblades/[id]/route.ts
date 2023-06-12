@@ -2,6 +2,8 @@ import { bey_beyblades } from '@prisma/client'
 import {NextResponse} from 'next/server'
 import { prisma } from '../../../../../utils/prisma'
 
+export const dynamic = 'force-dynamic'
+
 type ErrorResponse = {
     err: string
 }
