@@ -2,26 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.bey-gradient-border {
+    background:linear-gradient(90deg,#fff,#fff),linear-gradient(90deg,#fc5e00, #f15c12, #e65a1d, #db5925, #cf572b, #c16720, #b2741c, #a27f22, #83973e, #5faa6c, #38b99f, #2fc3ce)
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.bey-gradient-border {
+    background-clip: padding-box,border-box;
+    background-origin: padding-box,border-box;
+    border-color: transparent;
+    border-radius: 12px;
+    border-width: 1px
+}
+
+.bey-gradient-border:hover>:is(.bey-gradient-left,.bey-gradient-right) {
+    opacity: .3
+}
+
+.bey-gradient-left,.bey-gradient-right {
+    opacity: 0
+}
+
+.accordion-input { display: none; }
+.accordion-label { cursor: pointer; }
+.accordion-content { display: none; }
+.accordion-input:checked + .accordion-label + .accordion-content { display: block; }
+
+.jsonCode {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    word-break: break-word; /* Add this line */
+    white-space: pre-wrap; /* Preserve line breaks */
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
