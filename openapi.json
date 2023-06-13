@@ -5,7 +5,7 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/beyblades": {
+    "/api/v1/beyblades": {
       "get": {
         "summary": "Retrieve a list of Beyblades",
         "parameters": [
@@ -65,7 +65,7 @@
         }
       }
     },
-    "/beyblades/{id}": {
+    "/api/v1/beyblades/{id}": {
       "get": {
         "summary": "Retrieve a specific Beyblade by ID",
         "parameters": [
@@ -124,9 +124,6 @@
             "type": "integer",
             "format": "int64"
           },
-          "reference": {
-            "type": "string"
-          },
           "name": {
             "type": "string"
           },
@@ -151,6 +148,9 @@
           {
             "type": "object",
             "properties": {
+              "reference": {
+                "type": "string"
+              },
               "fandomUrl": {
                 "type": "string"
               },

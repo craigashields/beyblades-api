@@ -6,6 +6,7 @@ import SectionContainer from './components/SectionContainer';
 import { Metadata } from 'next'
 import siteMetadata from './data/siteMetadata';
 import Icon from './icons/favicon.ico'
+import { Analytics } from '@vercel/analytics/react';
 
 const icon = Icon
 export const metadata: Metadata = {
@@ -69,7 +70,10 @@ export default function RootLayout({
         </div>
           <Footer />
       </SectionContainer>
+      <Analytics />
+
     </body>
     </html>
+    
   )
 }
